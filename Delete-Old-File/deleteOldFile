@@ -1,0 +1,14 @@
+#!/bin/bash
+#Date:31/05/2022
+#Description: This script will delete files older than 90 days
+#Modified: 31/05/2022
+
+#-mtime
+#Modified timestamp
+#The last time the content of file that is modified
+
+#Renaming file to file.old
+find /home/rsridharan/Scripts/DeleteOlder -mtime +90 -exec mv {} {}.old \;
+
+#Removing old file
+#find /home/rsridharan/Scripts/DeleteOlder -mtime +90 -exec rm {} \;
