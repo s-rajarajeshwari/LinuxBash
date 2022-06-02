@@ -1,0 +1,36 @@
+#!/bin/bash
+#Author: Raji
+#Date:01/06/2022
+#Description:This script will add system inventory to database file
+#Modified: 01/06/2022
+clear
+echo Please enter hostname?
+read host
+echo
+	grep -q $host /home/rsridharan/Scripts/systemInventory/database
+	if [ $? -eq 0 ]
+	then	
+	echo ERROR -- Hostname $host already exist
+	echo
+	exit 0
+	fi
+
+echo Please enter IP address?
+read IP
+echo
+	grep -q $IP /home/rsridharan/Scripts/systemInventory/database
+	if [ $? -eq 0 ]
+	then 
+	echo ERROR -- IP $IP already exist
+	echo
+	exit 0
+	fi
+
+echo Please enter Description?
+read description
+echo
+
+echo $host  $IP $description >> /home/rsridharan/Scripts/systemInventory/database
+echo The provided record has been added
+echo
+

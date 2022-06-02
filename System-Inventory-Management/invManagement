@@ -1,0 +1,19 @@
+#!/bin/bash
+#Author: Raji
+#Date:01/06/2022
+#Description:This script will add or delete a record from database file
+#Modified: 01/06/2022
+
+clear
+echo
+echo Please select one of the following options:
+echo
+echo 'a = Add a record'
+echo 'd = Delete a record'
+echo
+	read choice
+	case $choice in 
+a)	/home/rsridharan/Scripts/systemInventory/addRecord;;
+d)	/home/rsridharan/Scripts/systemInventory/deleteRecord;;
+*)	echo Invalid Choice
+	esac
