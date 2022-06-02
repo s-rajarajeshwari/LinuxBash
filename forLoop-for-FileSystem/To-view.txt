@@ -1,0 +1,7 @@
+simpleCount
+checkFiles
+createFiles
+renameFiles
+creatFilesInput
+assignPermissions
+copyFilesToRemote
