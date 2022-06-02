@@ -1,0 +1,24 @@
+#!/bin/bash
+#Author:Raji
+#Description: This script will ping a remote host and notfy
+
+#-c1: ping only once
+# home Ip address: 192.168.0.106
+
+#ping -c1 192.168.0.106 &> /dev/null
+#Not outputig messages just ok or not ok.
+# It will output to null file which will disappear
+
+#ping 192.168.0.106
+#To know in detail
+
+hosts="192.168.0.106"
+ping -c1 $hosts &> /dev/null
+	#Check if host reachable or not
+	if [ $? -eq 0 ]
+	then
+	echo $hosts is OK
+	else
+	echo $hosts is NOT OK
+	fi
+
