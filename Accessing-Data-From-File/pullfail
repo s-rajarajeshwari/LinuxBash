@@ -1,0 +1,10 @@
+#!/bin/bash
+#Author:Raji Sridharan
+#Date:31/05/2022
+#Description:This script will pull only error messages from var log messages
+#Modified: 31/05/2022
+
+#searches for string or pattern in files
+#-i: To ignore lower case or upper case letters
+#Get failing  messages
+grep -i fail /home/rsridharan/Scripts/RealLifeScripts/messages

@@ -1,0 +1,27 @@
+May 30 02:03:00 MyFirstLinuxVM kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+May 30 02:03:02 MyFirstLinuxVM kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+May 30 02:03:02 MyFirstLinuxVM kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+May 30 02:03:29 MyFirstLinuxVM mcelog: Family 6 Model 122 CPU: only decoding architectural errors
+May 30 02:03:33 MyFirstLinuxVM mcelog: Family 6 Model 122 CPU: only decoding architectural errors
+May 30 02:31:03 MyFirstLinuxVM libvirtd: 2022-05-30 06:31:03.773+0000: 1505: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:31:06 MyFirstLinuxVM libvirtd: 2022-05-30 06:31:06.932+0000: 1505: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:31:06 MyFirstLinuxVM libvirtd: 2022-05-30 06:31:06.933+0000: 1505: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:32:04 MyFirstLinuxVM journal: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+May 30 02:32:35 MyFirstLinuxVM journal: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+May 30 02:32:41 MyFirstLinuxVM journal: not GsPlugin error from plugin repos g-key-file-error-quark:1: Key file contains line “        file:///media/cdrom/” which is not a key-value pair, group, or comment
+May 30 02:32:45 MyFirstLinuxVM pulseaudio[2181]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 30 02:33:57 MyFirstLinuxVM journal: not GsPlugin error from plugin packagekit-refine pk-control-error-quark:0: failed to resolve package_ids: Timeout was reached
+May 30 02:49:48 MyFirstLinuxVM kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+May 30 02:49:50 MyFirstLinuxVM kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+May 30 02:49:50 MyFirstLinuxVM kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+May 30 02:50:14 MyFirstLinuxVM mcelog: Family 6 Model 122 CPU: only decoding architectural errors
+May 30 02:50:15 MyFirstLinuxVM mcelog: Family 6 Model 122 CPU: only decoding architectural errors
+May 30 02:50:41 MyFirstLinuxVM libvirtd: 2022-05-30 06:50:41.492+0000: 1430: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:50:41 MyFirstLinuxVM libvirtd: 2022-05-30 06:50:41.551+0000: 1430: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:50:41 MyFirstLinuxVM libvirtd: 2022-05-30 06:50:41.553+0000: 1430: error : virHostCPUGetTscInfo:1389 : Unable to open /dev/kvm: No such file or directory
+May 30 02:51:09 MyFirstLinuxVM journal: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+May 30 02:51:40 MyFirstLinuxVM journal: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+May 30 02:51:47 MyFirstLinuxVM journal: not GsPlugin error from plugin repos g-key-file-error-quark:1: Key file contains line “        file:///media/cdrom/” which is not a key-value pair, group, or comment
+May 30 02:51:51 MyFirstLinuxVM pulseaudio[2049]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 30 05:02:15 MyFirstLinuxVM journal: geocoding.vala:44: Failed to connect to GeoClue2 service: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Geolocation disabled for UID 1000
+May 30 06:59:34 MyFirstLinuxVM journal: not GsPlugin error from plugin packagekit-refine pk-control-error-quark:0: failed to get update details for cyrus-sasl-gssapi;2.1.26-24.el7_9;x86_64;updates: Timeout was reached

@@ -1,0 +1,12 @@
+#!/bin/bash
+#Author:Raji Sridharan
+#Date:31/05/2022
+#Description: Format output of admin commands
+#Modified:31/05/2022
+
+#print the first column value that is day
+date | awk '{print $1}'
+#print only the third column value that is time
+uptime | awk '{print $3}'
+#Only displays root disk space
+df -h | grep root
