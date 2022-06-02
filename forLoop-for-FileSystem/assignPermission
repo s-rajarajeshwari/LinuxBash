@@ -1,0 +1,15 @@
+#!/bin/bash
+#Description: To assign permissions for file starting with a
+
+#Total number of files that starts with a
+#wc: word count that is used to find number of lines,word count and character count
+total=`ls -l a* | wc -l`
+echo It will take $total seconds to assign permissions..
+echo
+
+for i in a.*
+do
+	echo Assigning write permissions to $i
+	chmod a+w $i
+	sleep 1
+done

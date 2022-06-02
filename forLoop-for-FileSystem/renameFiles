@@ -1,0 +1,10 @@
+#!/bin/bash
+#Description: This scrip will rename .txt files
+
+for filename in *.txt
+do
+	#${filename%.txt} removes the extension by using the wildcard
+	#${filename%}-is filename.txt
+	#${filename%}.txt is filename
+	mv $filename ${filename%.txt}.none
+done

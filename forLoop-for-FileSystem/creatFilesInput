@@ -1,0 +1,12 @@
+#!/bin/bash
+#Description: To create Multiple files with user input as file name
+
+echo
+echo How many files do you want to create?
+read num
+echo Please enter start name of files
+read name
+for i in $(seq 1 $num)
+do
+	touch $name.$i
+done

@@ -1,0 +1,11 @@
+#!/bin/bash
+#Description: Copy files to remote host
+
+#Cannot run because we do not have multiple hosts
+#put hostname or ip address in for range
+
+for i in redhat2 redhat3 redhat4
+do
+	#Copy some file to tmp folder
+	scp somefile $i:/tmp
+done

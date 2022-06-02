@@ -1,0 +1,6 @@
+#!/bin/bash
+#Description: To create Multiple files with different name
+for i in {1..10}
+do
+	touch raji.$i
+done

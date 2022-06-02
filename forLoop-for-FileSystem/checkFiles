@@ -1,0 +1,19 @@
+#!/bin/bash
+#Description: Ths script will check for files
+
+FILES="/etc/passwd
+/etc/group
+/etc/shadow
+/etc/nsswitch.conf
+/etc/fake"
+
+echo
+for file in $FILES
+do
+	#! -e: do not exist(Not equal to specified file)
+	if [ ! -e $file ]
+	then
+	echo $file do not exist
+	echo
+	fi
+done
